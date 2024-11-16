@@ -1,0 +1,35 @@
+.allWrapper{
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    position: relative;
+    width: 250px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+.pink {
+    /* background-color: rgb(187, 52, 52); */
+    background-color: rgb(233 30 99 / 36%);
+}
+.blue {
+    /* background-color: rgb(52, 141, 236); */
+    background-color: rgb(52 141 236 / 56%);
+}
+
+.bold{
+    font-weight: bold;
+}
+.nor{
+    font-weight: normal;
+}
+.finally{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(285px,1fr));
+    background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+

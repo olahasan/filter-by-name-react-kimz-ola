@@ -1,0 +1,138 @@
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+.back{
+    width: 100%;
+    height:100%;
+    /* position:absolute; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgb(0, 3, 3, 0.8);
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: brown;
+    /* background-color: white; */
+    width: 400px;
+    /* height: 200px; */
+    height: 243px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    flex-direction: column;
+}
+
+.del{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    /* background-color: brown; */
+    background-color: white;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+form > div:nth-child(2),
+form > div:nth-child(3),
+form > div:nth-child(4){
+    /* margin-bottom: 30px; */
+    position: relative;
+}
+small{
+    position: absolute;
+    bottom: -17px;
+    right: 23px;
+    font-weight: normal;
+}
+
+form > div:nth-child(2),
+form > div:nth-child(3),
+form > div:nth-child(4),
+form > div:nth-child(5){
+    display: flex;
+    align-items: baseline;
+    font-weight: bold;
+    /* position: relative; */
+}
+form > div:nth-child(4){
+    margin-bottom: -6px;
+}
+.label ,
+span{
+    width: 70px;
+    text-align: center;
+}
+.input{
+    width: 75%;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+/* .input:focus{
+    outline: none;
+} */
+.male{
+    flex-basis: 50%;
+    margin-left: 25px;
+}
+.male,
+.female{
+    font-weight: 500;
+}
+.btns{
+    text-align: center;
+}
+.btns >button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+small{
+    color: #83f301;
+}
+.out{
+    outline: 2px solid #8cf301;
+}
+.nor{
+    outline: none;
+}
+
+/* .save{
+    background-color: rgb(15, 126, 15);
+} */
+/* .reset{
+    background-color: brown;
+} */
+.save,
+.reset{
+    cursor: pointer;
+}
+.last{
+    color: #83f301;
+    bottom: 59px;
+    right: 43px;
+}

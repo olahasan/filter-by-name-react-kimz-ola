@@ -1,0 +1,31 @@
+.title,
+.gbtn{
+  text-align: center;
+}
+.gbtn{
+  /* margin-bottom: 20px; */
+  margin-bottom: 15px;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.btnTop,
+.btnBottom{
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-weight: bold;
+}
+.btnTop{
+  margin-right: 20px;
+}
+
+.try{
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px,1fr)); */
+  background-color: aqua;
+}

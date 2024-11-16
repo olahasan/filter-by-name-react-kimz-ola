@@ -1,0 +1,15 @@
+.del{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}

@@ -1,0 +1,17 @@
+.inp{
+    /* margin-bottom: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-49%);
+    border: 1px solid grey; */
+    margin-bottom: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-49%);
+    border: 1px solid grey;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+.inp:focus{
+    outline: none;
+}
